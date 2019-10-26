@@ -1,2 +1,67 @@
 @import "bootstrap";
+@import "font-awesome";
 
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 70px;
+  font-weight: 900;
+  font-family: 'antoniolight', sans-serif;
+  font-stretch: ultra-expanded;
+  color: #7730B8;
+}
+
+h2 {
+  padding-left: 30px;
+  font-family: 'antoniolight', sans-serif;
+  color: #7730B8;
+}
+
+h3 {
+  font-size: 60px;
+  color: #7730B8;
+}
+
+h4 {
+  font-size: 30px;
+  color: #7730B8;
+}
+
+.hero-container {
+  background: image-url("mountain.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 396px;
+}
+
+.container {
+background-color: #7730B8;
+}
+
+.navbar-nav {
+  padding: auto;
+  text-align: center;
+  /*text-orientation: justify;*/
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.box {
+  float: left;
+  width: 42.5%;
+  margin-left: 10%;
+  margin-top: 60px;
+  color: black;
+}
